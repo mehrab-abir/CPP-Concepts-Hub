@@ -1,2 +1,2 @@
-# C-
-Programming Concepts in C++
+# C++
+This repository contains clear and practical examples of fundamental and advanced C++ concepts.
