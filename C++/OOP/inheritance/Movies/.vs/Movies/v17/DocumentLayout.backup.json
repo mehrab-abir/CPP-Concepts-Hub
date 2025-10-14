@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\Movies\\",
+  "WorkspaceRootPath": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\Movies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48261F90-87BF-42B0-81B9-C5BCC0267986}|Movies\\Movies.vcxproj|G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\Movies\\Movies\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{48261F90-87BF-42B0-81B9-C5BCC0267986}|Movies\\Movies.vcxproj|F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\Movies\\Movies\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{48261F90-87BF-42B0-81B9-C5BCC0267986}|Movies\\Movies.vcxproj|solutionrelative:Movies\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48261F90-87BF-42B0-81B9-C5BCC0267986}|Movies\\Movies.vcxproj|G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\Movies\\Movies\\movie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{48261F90-87BF-42B0-81B9-C5BCC0267986}|Movies\\Movies.vcxproj|F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\Movies\\Movies\\movie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{48261F90-87BF-42B0-81B9-C5BCC0267986}|Movies\\Movies.vcxproj|solutionrelative:Movies\\movie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48261F90-87BF-42B0-81B9-C5BCC0267986}|Movies\\Movies.vcxproj|G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\Movies\\Movies\\movie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{48261F90-87BF-42B0-81B9-C5BCC0267986}|Movies\\Movies.vcxproj|F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\Movies\\Movies\\movie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{48261F90-87BF-42B0-81B9-C5BCC0267986}|Movies\\Movies.vcxproj|solutionrelative:Movies\\movie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -40,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\Movies\\Movies\\main.cpp",
+              "DocumentMoniker": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\Movies\\Movies\\main.cpp",
               "RelativeDocumentMoniker": "Movies\\main.cpp",
-              "ToolTip": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\Movies\\Movies\\main.cpp",
+              "ToolTip": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\Movies\\Movies\\main.cpp",
               "RelativeToolTip": "Movies\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-11T04:38:51.2Z",
               "EditorCaption": ""
@@ -53,11 +53,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "movie.cpp",
-              "DocumentMoniker": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\Movies\\Movies\\movie.cpp",
+              "DocumentMoniker": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\Movies\\Movies\\movie.cpp",
               "RelativeDocumentMoniker": "Movies\\movie.cpp",
-              "ToolTip": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\Movies\\Movies\\movie.cpp",
+              "ToolTip": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\Movies\\Movies\\movie.cpp",
               "RelativeToolTip": "Movies\\movie.cpp",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-11T04:39:10.024Z",
               "EditorCaption": ""
@@ -66,11 +66,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "movie.h",
-              "DocumentMoniker": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\Movies\\Movies\\movie.h",
+              "DocumentMoniker": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\Movies\\Movies\\movie.h",
               "RelativeDocumentMoniker": "Movies\\movie.h",
-              "ToolTip": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\Movies\\Movies\\movie.h",
+              "ToolTip": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\Movies\\Movies\\movie.h",
               "RelativeToolTip": "Movies\\movie.h",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-11T04:39:01.5Z",
               "EditorCaption": ""

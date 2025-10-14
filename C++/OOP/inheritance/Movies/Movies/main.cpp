@@ -13,13 +13,10 @@ int main() {
 
 	cout << endl;
 
-	cout << "Thriller movie list: " << endl;
 	thriller->movieList();
 
-	cout << "Drama movie list: " << endl;
 	drama->movieList();
 
-	cout << "Sci-fi movie list:" << endl;
 	scifi->movieList();
 
 	cout << endl;

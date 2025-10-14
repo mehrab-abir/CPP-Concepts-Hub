@@ -10,7 +10,7 @@ class Animal {
 private:
 	string name;
 public:
-	Animal(string name); //base class constructor with parametr
+	Animal(string name); //base class constructor with parameter
 
 	void sound();
 

@@ -32,7 +32,7 @@ Thriller::~Thriller() {
 }
 
 void Thriller::movieList() {
-
+	cout << "Thriller movie list: " << endl;
 	for (int i = 0; i < 3; i++) {
 		cout << i+1 << ": " << movies[i] << endl;
 	}
@@ -49,7 +49,7 @@ SciFi::SciFi() {
 	};
 }
 void SciFi::movieList() {
-
+	cout << "Sci-fi movie list:" << endl;
 	for (int i = 0; i < 3; i++) {
 		cout << i+1 << ": " << movies[i] << endl;
 	}
@@ -72,7 +72,7 @@ Drama::Drama() {
 	};
 }
 void Drama::movieList() {
-
+	cout << "Drama movie list: " << endl;
 	for (int i = 0; i < 3; i++) {
 		cout << i+1 << ": " << movies[i] << endl;
 	}

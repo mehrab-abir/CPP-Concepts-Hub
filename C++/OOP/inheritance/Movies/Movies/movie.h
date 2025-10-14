@@ -11,6 +11,7 @@ public:
 	Movie();
 
 	virtual void movieList() = 0;  //pure virtual function, no implementation
+	//will be overridden in derived class
 
 	/*the Movie class has become abstract because of pure virtual function, so we can not make object
 	from it, it must be inherited*/

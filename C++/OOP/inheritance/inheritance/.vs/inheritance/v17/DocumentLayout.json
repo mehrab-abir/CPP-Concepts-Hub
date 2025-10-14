@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\inheritance\\",
+  "WorkspaceRootPath": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\inheritance\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A1FEB62-E0A8-4351-A822-D0C0AB6B4E02}|inheritance\\inheritance.vcxproj|G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\inheritance\\inheritance\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9A1FEB62-E0A8-4351-A822-D0C0AB6B4E02}|inheritance\\inheritance.vcxproj|F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\inheritance\\inheritance\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9A1FEB62-E0A8-4351-A822-D0C0AB6B4E02}|inheritance\\inheritance.vcxproj|solutionrelative:inheritance\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A1FEB62-E0A8-4351-A822-D0C0AB6B4E02}|inheritance\\inheritance.vcxproj|G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\inheritance\\inheritance\\core.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9A1FEB62-E0A8-4351-A822-D0C0AB6B4E02}|inheritance\\inheritance.vcxproj|F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\inheritance\\inheritance\\core.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9A1FEB62-E0A8-4351-A822-D0C0AB6B4E02}|inheritance\\inheritance.vcxproj|solutionrelative:inheritance\\core.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A1FEB62-E0A8-4351-A822-D0C0AB6B4E02}|inheritance\\inheritance.vcxproj|G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\inheritance\\inheritance\\core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9A1FEB62-E0A8-4351-A822-D0C0AB6B4E02}|inheritance\\inheritance.vcxproj|F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\inheritance\\inheritance\\core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9A1FEB62-E0A8-4351-A822-D0C0AB6B4E02}|inheritance\\inheritance.vcxproj|solutionrelative:inheritance\\core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -40,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\inheritance\\inheritance\\main.cpp",
+              "DocumentMoniker": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\inheritance\\inheritance\\main.cpp",
               "RelativeDocumentMoniker": "inheritance\\main.cpp",
-              "ToolTip": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\inheritance\\inheritance\\main.cpp",
+              "ToolTip": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\inheritance\\inheritance\\main.cpp",
               "RelativeToolTip": "inheritance\\main.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-15T06:15:59.308Z",
               "EditorCaption": ""
@@ -53,11 +53,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "core.cpp",
-              "DocumentMoniker": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\inheritance\\inheritance\\core.cpp",
+              "DocumentMoniker": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\inheritance\\inheritance\\core.cpp",
               "RelativeDocumentMoniker": "inheritance\\core.cpp",
-              "ToolTip": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\inheritance\\inheritance\\core.cpp",
+              "ToolTip": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\inheritance\\inheritance\\core.cpp",
               "RelativeToolTip": "inheritance\\core.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-15T06:16:21.549Z",
               "EditorCaption": ""
@@ -66,11 +66,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "core.h",
-              "DocumentMoniker": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\inheritance\\inheritance\\core.h",
+              "DocumentMoniker": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\inheritance\\inheritance\\core.h",
               "RelativeDocumentMoniker": "inheritance\\core.h",
-              "ToolTip": "G:\\Seneca\\3rd Semester\\OOP244\\inheritance\\inheritance\\inheritance\\core.h",
+              "ToolTip": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\OOP\\inheritance\\inheritance\\inheritance\\core.h",
               "RelativeToolTip": "inheritance\\core.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-15T06:16:30.112Z",
               "EditorCaption": ""

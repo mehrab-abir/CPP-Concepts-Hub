@@ -7,6 +7,8 @@ using namespace std;
 class Shape {
 public:
 	virtual void draw();
+
+	/*A virtual function is a function in a base class that is expected to be overridden in derived classes. It is declared using the virtual keyword in the base class.*/
 };
 
 class Circle : public Shape {
