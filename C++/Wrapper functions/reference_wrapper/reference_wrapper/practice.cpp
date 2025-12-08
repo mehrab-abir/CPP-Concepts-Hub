@@ -2,7 +2,6 @@
 #include<iostream>
 #include<vector>
 #include<functional>
-#include<algorithm>
 #include<string>
 
 #include "practice.h";
@@ -21,7 +20,7 @@ void practice() {
 		r = r * r;
 	}*/
 
-	//the above for loop is same as the one in below
+	//the above for loop is same as the one below
 	//updating values using reference wrapper
 	for (auto& r : arrRefs) {
 		r.get() = r.get() * r.get(); //square
@@ -44,7 +43,7 @@ void practice() {
 	string player = "Trent";
 	int jersyNum = 12;
 
-	//wraaping the references individually
+	//wrapping the references individually
 	reference_wrapper<string> playerRefs = ref(player);
 	reference_wrapper<int>jersyRef = ref(jersyNum);
 

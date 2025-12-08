@@ -39,6 +39,16 @@ void add(const string str1[], const string str2[], int n) {
 	delete[] result;
 }
 
+template<typename Type1, typename Type2>
+void Text(const Type1 arr[], Type2 str, int size) {
+
+	cout << "\nNew function template: \n";
+	for (int i = 0; i < size; i++) {
+		cout << arr[i] << " -> " << str << endl;
+	}
+	cout << endl;
+}
+
 int main() {
 	int arr1[5] = { 3,6,4,7,1 };
 	int arr2[5] = { 2,1,4,8,5 };
@@ -49,6 +59,10 @@ int main() {
 	string str2[] = { "Abul","Babul","Kabul" };
 
 	add(str1, str2, 3);
+
+	int newArr[3] = { 10,20,30 };
+
+	Text(newArr, "Hello", 3);
 
 	return 0;
 }

@@ -1,5 +1,5 @@
 ﻿  main.cpp
-F:\CS\Github Repository\Data-Structures-and-Algorithms_CPP\C++\algorithm_library\algorithm_library\main.cpp(12,10): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-F:\CS\Github Repository\Data-Structures-and-Algorithms_CPP\C++\algorithm_library\algorithm_library\main.cpp(17,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-F:\CS\Github Repository\Data-Structures-and-Algorithms_CPP\C++\algorithm_library\algorithm_library\main.cpp(19,14): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-  algorithm_library.vcxproj -> F:\CS\Github Repository\Data-Structures-and-Algorithms_CPP\C++\algorithm_library\x64\Debug\algorithm_library.exe
+F:\CS\CPP-Concepts-Hub\C++\algorithm_library\algorithm_library\main.cpp(12,10): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+F:\CS\CPP-Concepts-Hub\C++\algorithm_library\algorithm_library\main.cpp(17,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\CS\CPP-Concepts-Hub\C++\algorithm_library\algorithm_library\main.cpp(19,14): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  algorithm_library.vcxproj -> F:\CS\CPP-Concepts-Hub\C++\algorithm_library\x64\Debug\algorithm_library.exe

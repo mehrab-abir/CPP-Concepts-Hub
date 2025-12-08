@@ -24,7 +24,7 @@ int main() {
 	//modifier
 	vector<int>copyArr(n);
 
-	copy(nums.begin(), nums.end(), copyArr.begin());
+	copy(nums.begin(), nums.end()-3, copyArr.begin());
 
 	cout << "CopyArr:";
 	for (auto x : copyArr) {
@@ -88,5 +88,23 @@ int main() {
 	}
 	cout << endl;
 
+	cout << "-------------------------------------\n";
+	vector<int>multiples_5 = {5,10,15,20,25,30,35,40,45,50};
+
+	cout << "--->: ";
+	for (int x : multiples_5) {
+		cout << x << " ";
+	}
+	cout << endl;
+
+	vector<int>five_and_two(n);
+	copy_if(multiples_5.begin(), multiples_5.end(), five_and_two.begin(), [](int i) {return i % 2 == 0 && i % 5 == 0; });
+
+	cout << "Divisible by 5 and 2 --> :";
+	for (int x : five_and_two) {
+		cout << x << " ";
+	}
+
+	cout << endl;
 	return 0;
 }

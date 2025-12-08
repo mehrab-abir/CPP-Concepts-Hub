@@ -65,15 +65,16 @@ int main() {
 	MovieDirector<string> Nolan("Interstellar");
 	MovieDirector<string> Scorsese("Shutter Island");
 
-	cout <<"Number of directors taken: "<< MovieDirector<string>::count << endl;
+	//string type er koyta object ache akhon porjonto tar count
+	cout <<"Number of directors taken: "<< MovieDirector<string>::count << endl; //2
 	Nolan.display();
 	Scorsese.display();
 	cout << endl;
 
 	MovieDirector<string>Hitchcock("Rear Window");
 
-	//string type er koyta object ache tar count
-	cout << "Number of directors taken: " << MovieDirector<string>::count << endl;
+	//string type er koyta object ache akhon porjonto tar count
+	cout << "Number of directors taken: " << MovieDirector<string>::count << endl; //3
 
 	Hitchcock.display();
 
@@ -83,7 +84,7 @@ int main() {
 	MovieDirector<double>foo[4];
 
 	//int type er koyta object ache tar count
-	cout << "Number of director id: " << MovieDirector<int>::count << endl;
+	cout << "Number of director id: " << MovieDirector<int>::count << endl; //5
 
 	cout << endl;
 
@@ -96,7 +97,7 @@ int main() {
 	cout << endl;
 
 	//double type er koyta object ache tar count
-	cout << "Number of Foo: " << MovieDirector<double>::count << endl;
+	cout << "Number of Foo: " << MovieDirector<double>::count << endl; //4
 	cout << endl;
 
 	cout << "foo[2] > \n";
@@ -131,6 +132,21 @@ int main() {
 
 	Printer<double>dblNum(12.75);
 	dblNum.display();
+
+	cout << "\n***********************************\n";
+	ShowTwice<int>obj1(10);
+	obj1.show();
+
+	cout << "*************" << endl;
+	ShowTwice<string>obj2("Text Twice");
+	obj2.show();
+	cout << "*************" << endl;
+
+	ShowTwice<double>Square(5.5); //square of...
+	Square.show();
+
+	ShowTwice<double>SquareInt(5); //square of ...
+	SquareInt.show();
 
 	return 0;
 }

@@ -39,4 +39,45 @@ void Movie<Str, Num>::display() {
 	cout << text << " " << "(" <<number <<")" << endl;
 }
 
+//----------------------------------------
+template<typename myType>
+class ShowTwice {
+	myType data;
+public:
+	static int count;
+	ShowTwice(myType data);
+	void show();
+};
+
+//static variable
+template<typename myType>
+int ShowTwice<myType>::count = 0;
+
+//constructor
+template<typename myType>
+ShowTwice<myType>::ShowTwice(myType data) {
+	this->data = data;
+	ShowTwice<myType>::count++;
+}
+
+//show()
+template<typename myType>
+void ShowTwice<myType>::show() {
+	cout << "Data: " << data << "<->"<< data << endl;
+}
+
+
+//speciallizing for double type
+template<>
+class ShowTwice<double> {
+	double data;
+public:
+	ShowTwice(double data) {
+		this->data = data;
+	}
+
+	void show() {
+		cout << "Square of " << data << ": " << data * data << endl;
+	}
+};
 

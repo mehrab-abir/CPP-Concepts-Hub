@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\CS\\Github Repository\\C\u002B\u002B\\classTemplate\\",
+  "WorkspaceRootPath": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\Template\\classTemplate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1F425B9-6BD4-4715-BB85-23D5C567B77E}|classTemplate\\classTemplate.vcxproj|F:\\CS\\Github Repository\\C\u002B\u002B\\classTemplate\\classTemplate\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E1F425B9-6BD4-4715-BB85-23D5C567B77E}|classTemplate\\classTemplate.vcxproj|F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\Template\\classTemplate\\classTemplate\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E1F425B9-6BD4-4715-BB85-23D5C567B77E}|classTemplate\\classTemplate.vcxproj|solutionrelative:classTemplate\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1F425B9-6BD4-4715-BB85-23D5C567B77E}|classTemplate\\classTemplate.vcxproj|F:\\CS\\Github Repository\\C\u002B\u002B\\classTemplate\\classTemplate\\template.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E1F425B9-6BD4-4715-BB85-23D5C567B77E}|classTemplate\\classTemplate.vcxproj|F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\Template\\classTemplate\\classTemplate\\template.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E1F425B9-6BD4-4715-BB85-23D5C567B77E}|classTemplate\\classTemplate.vcxproj|solutionrelative:classTemplate\\template.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "F:\\CS\\Github Repository\\C\u002B\u002B\\classTemplate\\classTemplate\\main.cpp",
+              "DocumentMoniker": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\Template\\classTemplate\\classTemplate\\main.cpp",
               "RelativeDocumentMoniker": "classTemplate\\main.cpp",
-              "ToolTip": "F:\\CS\\Github Repository\\C\u002B\u002B\\classTemplate\\classTemplate\\main.cpp",
+              "ToolTip": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\Template\\classTemplate\\classTemplate\\main.cpp",
               "RelativeToolTip": "classTemplate\\main.cpp",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-13T18:52:11.998Z",
               "EditorCaption": ""
@@ -49,11 +49,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "template.h",
-              "DocumentMoniker": "F:\\CS\\Github Repository\\C\u002B\u002B\\classTemplate\\classTemplate\\template.h",
+              "DocumentMoniker": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\Template\\classTemplate\\classTemplate\\template.h",
               "RelativeDocumentMoniker": "classTemplate\\template.h",
-              "ToolTip": "F:\\CS\\Github Repository\\C\u002B\u002B\\classTemplate\\classTemplate\\template.h",
+              "ToolTip": "F:\\CS\\CPP-Concepts-Hub\\C\u002B\u002B\\Template\\classTemplate\\classTemplate\\template.h",
               "RelativeToolTip": "classTemplate\\template.h",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-13T18:52:20.852Z",
               "EditorCaption": ""
