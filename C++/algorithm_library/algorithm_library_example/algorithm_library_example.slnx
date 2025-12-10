@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="algorithm_library_example/algorithm_library_example.vcxproj" Id="324c2fbf-1251-4660-a6ca-4201826a8372" />
+</Solution>

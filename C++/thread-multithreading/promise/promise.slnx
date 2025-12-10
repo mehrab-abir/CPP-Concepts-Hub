@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="promise/promise.vcxproj" Id="f55a0318-ba1e-4559-8a77-12cbd6625505" />
+</Solution>

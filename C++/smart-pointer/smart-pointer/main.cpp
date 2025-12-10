@@ -21,7 +21,7 @@ void sharedPtrExample() {
     cout << "sp2 value: " << *sp2 << endl;
     cout << "sp2 use count: " << sp2.use_count() << endl; //still 2, no new pointer has ownership yet
     cout << "sp1 use count after sharing: " << sp1.use_count() <<endl; 
-    //2, now, sp1 and sp2 point 20, that's why use_count 2
+    //2, sp1 and sp2 point 20, that's why use_count 2
 
     cout << endl;
 

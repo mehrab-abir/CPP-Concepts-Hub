@@ -60,23 +60,23 @@ int main() {
 
 	thread sum_thread(sum);
 
-	thread even_thread(evenNums);*/
+	thread even_thread(evenNums);
 
-	/*greet_thread.join();
+	greet_thread.join();
 	sum_thread.join();
-	even_thread.join();*/
+	even_thread.join();
 
 	cout << "Hello from main" << endl;
 
 	cout << endl;
 
-	/*thread count_odds(countOdds, 100);
+	thread count_odds(countOdds, 100);
 
-	count_odds.join();*/
+	count_odds.join();
 
 	cout << endl;
 
-	//cout << "Now in main, all threads are finished" << endl;
+	cout << "Now in main, all threads are finished" << endl;*/
 
 	//atomics();
 

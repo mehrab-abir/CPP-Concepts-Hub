@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="dynamic-2D-array/dynamic-2D-array.vcxproj" />
+</Solution>

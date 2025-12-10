@@ -2,6 +2,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+#include<numeric>
 
 using namespace std;
 
@@ -102,6 +103,32 @@ int main() {
 
 	cout << "Divisible by 5 and 2 --> :";
 	for (int x : five_and_two) {
+		cout << x << " ";
+	}
+
+	cout << endl;
+	//accumulate
+	vector<int>v = { 6,1,2,3,4,5,3 };
+
+	int s = accumulate(v.begin(), v.end(), 0);
+
+	cout << "Sum of all numbers of v[]: "<<s<<endl;
+
+	cout << endl;
+
+	int oddSum = accumulate(v.begin(), v.end(), 0, [](int sum, int i) {return sum + (i % 2 == 1 ? i : 0); }); //the order of parameters in the lambda function is importent here
+
+	cout << "Summation of odd numbers: " << oddSum << endl;
+
+
+	//for each
+	cout << "\n";
+	for_each(v.begin(), v.end(), [](int i) { cout << i << endl; });
+
+	for_each(v.begin(), v.end(), [](int &i) { i = i*i; });
+
+	cout << "Square: ";
+	for (int x : v) {
 		cout << x << " ";
 	}
 

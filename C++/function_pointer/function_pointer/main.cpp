@@ -32,7 +32,7 @@ int main() {
 	int sum = fPtr(5, 6);
 	cout << "Sum: " << sum << endl;
 
-	//assigning smae fPtr to product as function signature is same
+	//assigning same fPtr to 'product' as function signature is same
 	fPtr = product;
 	int productResult = fPtr(6, 3);
 	cout << "Product: " << productResult << endl;
@@ -49,7 +49,7 @@ int main() {
 	void (*movies[])(string) = { nolan,cameron,scorsese };
 
 	(*movies[0])("Inception");
-	movies[1]("Titanic");
+	movies[1]("Avatar");
 	movies[2]("Shutter Island");
 
 	cout << nolan << endl; //address of the function 'nolan'

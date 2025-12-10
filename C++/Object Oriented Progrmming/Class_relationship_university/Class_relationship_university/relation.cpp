@@ -55,7 +55,7 @@ Course::Course(string courseName, string courseCode, Teacher* instructor, vector
 
 void Course::courseInfo() {
 	cout << "Course: " << courseName << " - " << courseCode << endl;
-	cout << "Taught by -> ";
+	cout << "Instructor -> ";
 	instructor->display();
 
 	cout << "\nEnrolled students in this course:\n";
