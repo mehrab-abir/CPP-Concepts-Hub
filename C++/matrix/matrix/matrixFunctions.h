@@ -3,6 +3,7 @@
 
 void matrixVisual();
 void matrixAddition();
+void matrixMultiplication();
 
 
 #endif

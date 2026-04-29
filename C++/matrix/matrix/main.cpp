@@ -6,7 +6,8 @@ using namespace std;
 
 int main() {
 	//matrixVisual();
-	matrixAddition();
+	//matrixAddition();
+	matrixMultiplication();
 
 
 	return 0;
