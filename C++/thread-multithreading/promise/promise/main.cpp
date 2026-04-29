@@ -25,11 +25,11 @@ int main() {
 	//set it up to return a future object and store the future object in 'infoFuture'
 	future<string>infoFuture = infoPromise.get_future();
 
-	//pass your function to a thread along with the reference of the promise, pass argument using a comma..maintain the order of arguments
+	//pass your function to a thread along with the reference of the promise, pass arguments using commas..maintain the order of arguments
 	thread infoThread(getInfo,name, ref(infoPromise));
 
 	//get the final data from the future object by calling the get() method of 'future' object
-	string info = infoFuture.get(); //call .get() whene the data is needed
+	string info = infoFuture.get(); //call .get() when the data is needed
 
 	infoThread.join(); //must join the thread before main() ends
 
