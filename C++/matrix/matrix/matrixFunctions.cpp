@@ -287,7 +287,7 @@ void matrixMultiplicationGeneralize() {
 		for (int i = 0; i < nColsB; i++) {
 			int sum = 0;
 			for (int col = 0; col < nRowsB; col++) {
-				sum = sum + matA[row][col] * matB[col][i]; // 'i' represents the column here which stays same in each iteration of the most inner(3rd one) loop
+				sum = sum + matA[row][col] * matB[col][i]; // here, 'i' represents the column which stays same in each iteration of the inner-most(3rd one) loop
 			}
 			matA_x_matB[row][i] = sum;
 		}
