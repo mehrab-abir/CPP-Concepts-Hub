@@ -4,6 +4,7 @@
 void matrixVisual();
 void matrixAddition();
 void matrixMultiplication();
+void matrixMultiplicationGeneralize();
 
 
 #endif

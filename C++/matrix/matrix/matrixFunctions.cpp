@@ -143,6 +143,8 @@ void matrixMultiplication() {
 	}
 
 	//multiplication
+	//for square matrix only
+	//for both square and non-square matrices, logic has to be adjusted accordingly
 	for (int row = 0; row < nRows; row++) {
 		for (int i = 0; i < nCols; i++) {
 			int sum = 0;
@@ -222,3 +224,82 @@ matA[2][1] x matB[1][2]
 matA[2][2] x matB[2][2]
 =sum
 */
+
+
+//for matrix of any shape
+void matrixMultiplicationGeneralize() {
+	int nRowsA, nColsA, nRowsB, nColsB;
+
+	cout << "Number of rows for matrix A: ";
+	cin >> nRowsA;
+	cout << "Number of columns for matrix A: ";
+	cin >> nColsA;
+
+	cout << "For matrix multiplication, number of rows of matrix B must be equal to the number of columns of matrix A.\nTherefor, number of rows of matrix B = "<<nColsA<<"\n";
+
+	nRowsB = nColsA;
+	cout << "Number of columns for matrix B: ";
+	cin >> nColsB;
+
+	vector<vector<int>>matA(nRowsA, vector<int>(nColsA));
+	vector<vector<int>>matB(nRowsB, vector<int>(nColsB));
+	vector<vector<int>>matA_x_matB(nRowsA, vector<int>(nColsB));
+
+	cout << "\nInput for matrix A: " << endl;
+	for (int row = 0; row < nRowsA; row++) {
+		for (int col = 0; col < nColsA; col++) {
+			cout << "Matrix A[" << row + 1 << "][" << col + 1 << "]: ";
+			cin >> matA[row][col];
+		}
+		cout << "\n";
+	}
+
+	cout << "\n";
+	cout << "Input for matrix B: " << endl;
+	for (int row = 0; row < nRowsB; row++) {
+		for (int col = 0; col < nColsB; col++) {
+			cout << "Matrix B[" << row + 1 << "][" << col + 1 << "]: ";
+			cin >> matB[row][col];
+		}
+		cout << "\n";
+	}
+
+	cout << "Matrix A : \n";
+	for (int row = 0; row < nRowsA; row++) {
+		for (int col = 0; col < nColsA; col++) {
+			cout << matA[row][col] << "  ";
+		}
+		cout << "\n";
+	}
+
+	cout << "\n";
+
+	cout << "Matrix B : \n";
+	for (int row = 0; row < nRowsB; row++) {
+		for (int col = 0; col < nColsB; col++) {
+			cout << matB[row][col] << "  ";
+		}
+		cout << "\n";
+	}
+
+	//multiplication
+	for (int row = 0; row < nRowsA; row++) {
+		for (int i = 0; i < nColsB; i++) {
+			int sum = 0;
+			for (int col = 0; col < nRowsB; col++) {
+				sum = sum + matA[row][col] * matB[col][i]; // 'i' represents the column here which stays same in each iteration of the most inner(3rd one) loop
+			}
+			matA_x_matB[row][i] = sum;
+		}
+	}
+
+	cout << "\nMatrix A * Matrix B:\n";
+	for (int row = 0; row < nRowsA; row++) {
+		for (int col = 0; col < nColsB; col++) {
+			cout << "\t" << matA_x_matB[row][col] << "  ";
+		}
+		cout << "\n";
+	}
+
+	cout << "\n";
+}

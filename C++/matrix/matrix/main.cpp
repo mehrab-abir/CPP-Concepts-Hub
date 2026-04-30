@@ -7,7 +7,8 @@ using namespace std;
 int main() {
 	//matrixVisual();
 	//matrixAddition();
-	matrixMultiplication();
+	//matrixMultiplication();
+	matrixMultiplicationGeneralize();
 
 
 	return 0;
